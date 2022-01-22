@@ -13,15 +13,18 @@ Join us for a free Microsoft Workshop on Git and GitHub on **January 23rd, 2022 
 
 **Note: Just follow the following steps copy paste the commands and change them accordingly and you are All Set To Go 😀**
 
+_Before all of this create a GitHub account and download an install the Git Bash as it was explained in the event_
+
 ### STEP 1
-Set your user name and email in the gitbash using following commands (Replace the BOB and bob@example.com with your name and email).
+Set your user name and email in the gitbash using following commands (Replace the "Bob" and "bob@example.com" with your name and email).
 
 > git config --global user.name "Bob"
 > 
 > git config --global user.email "bob@example.com"
 
 ### STEP 2
-Generate a new SSH key for a hardware security key.
+Generate a new SSH key for a hardware security key (Replace your_email@example.com with your actual email)
+
 > ssh-keygen -t ed25519 -C "your_email@example.com"
  
 **Source:** https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
@@ -45,20 +48,22 @@ After copying the key go to your github setting --> SSH keys and paste it there 
 Then do it for this repo and copy the SSH link to clone.
 
 ### STEP 5
-To clone the repo, Create a new folder open gitbash and run:
-> git clone <link>
+To clone the repo, fork the repo. and copy the SSH link and Create a new folder right click and open gitbash and run:
+> git clone _link-you-copied_
 
 Replace the link with the copied link.
 
 ### STEP 6
-To move to the main folder run:
+To move to the main directory run:
 > cd git-it-done
+
+Now we are in the main folder where we will run all of our commands
 
 ### STEP 7
 To create a new branch run:
-> git checkout -b <branch name>
+> git checkout -b _branch-name_
 > 
-Replace branch name with your own branch name.
+Replace "branch-name" name with the name that you wat to give to this branch and dont add space between the name.
 
 ### STEP 8
 To check the status of your file run:
@@ -76,10 +81,11 @@ Replace the "commit message" with actual message.
 
 ### STEP 11
 To push the chanegs run:
-> git push origin <your branch name>
+> git push origin _your-branch-name_
 
-Replace <your branch name> with your branch.
-Ex: git push origin test
+Replace _your-branch-name_ with your branch name that you created earlier.
+
+Ex: `git push origin test`
 
 ### STEP 12
 After all of this go to https://github.com/mlsasrmncr/Git-it-done and create a PR.
