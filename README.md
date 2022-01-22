@@ -55,7 +55,7 @@ Replace the link with the copied link.
 
 ### STEP 6
 To move to the main directory run:
-> cd git-it-done
+> cd Git-it-done
 
 Now we are in the main folder where we will run all of our commands
 
@@ -63,7 +63,7 @@ Now we are in the main folder where we will run all of our commands
 To create a new branch run:
 > git checkout -b _branch-name_
 > 
-Replace "branch-name" name with the name that you wat to give to this branch and dont add space between the name.
+Replace "branch-name" name with the name that you want to give to this branch and don't add spaces between the name.
 
 ### STEP 8
 To check the status of your file run:
