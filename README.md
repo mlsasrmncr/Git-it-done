@@ -1,8 +1,6 @@
 # GIT IT DONE - A Hands-On Webinar on Git & GitHub | Online
 
-
 ![githubevent](https://user-images.githubusercontent.com/77405013/150646326-e0bea276-c224-4858-9995-4ae15d562d88.jpeg)
-
 
 ## About The Event
 📅 **January 23, 2022** </br>
