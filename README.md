@@ -1,4 +1,4 @@
-# GIT IT DONE - A Hands-On Webinar on Git & GitHub | Online
+# GIT IT DONE - A Hands-On Webinar on Git & GitHub | Online (Closed Now!)
 
 ![githubevent](https://user-images.githubusercontent.com/77405013/150646326-e0bea276-c224-4858-9995-4ae15d562d88.jpeg)
 
